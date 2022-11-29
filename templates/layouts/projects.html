@@ -1,0 +1,67 @@
+{% load static %}
+<section class="section" id="proyectos">
+    <article class="article">
+        <h2 class="subtitle">Proyectos</h2>
+        <div class="containerProyecto">
+            <button id="prev" class="button__proyect"><i class="fa-solid fa-angle-left"></i></button>
+            <div class="carrusel__container" id="carrusel">
+                <div class="card">
+                    <div class="card__project">
+                        <img class="card__img" src="{% static 'img/proyectos/elbowflix.PNG' %}" alt="elbowflix">
+                        <div class="card__content">
+                            <h4 class="card__title">Elbowflix</h4>
+                            <p class="card__description">
+                                Este es un proyecto realizado con HTML, CSS y JavaScript, recopila datos de una
+                                API de películas y series ( themoviedb API)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card__tool">
+                        <a href="https://elbowflix.netlify.app/" class="card__link" target="_blank">
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </a>
+                        <a href="https://github.com/JulianD1997/Elbowflix" class="card__link" target="_blank">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__project">
+                        <img class="card__img" src="{% static 'img/proyectos/Hotel_Teressita.PNG' %}" alt="elbowflix">
+                        <div class="card__content">
+                            <h4 class="card__title">Elbowflix</h4>
+                            <p class="card__description">
+                                Proyecto realizado con Python sigue el registro de recepción de un hotel, se
+                                realizado con Python, ORM peewee y diferentes librerías de Python como tkinter,
+                                virtualenv, sphinx para documentación.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card__tool">
+                        <a href="https://github.com/JulianD1997/proyecto_python_hotel_ORM" class="card__link">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__project">
+                        <img class="card__img" src="{% static 'img/proyectos/portfolio.PNG' %}" alt="elbowflix">
+                        <div class="card__content">
+                            <h4 class="card__title">Portfolio</h4>
+                            <p class="card__description">
+                                Este es un proyecto realizado con HTML, CSS, JavaScript y Django, Un proyecto
+                                personal.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card__tool">
+                        <a href="https://github.com/JulianD1997/my_portfolio" class="card__link">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button id="next" class="button__proyect"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </article>
+</section>
