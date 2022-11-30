@@ -651,7 +651,7 @@ body {
 }
 
 .download {
-    color: rgb(255, 191, 0);
+    color: rgb(9, 255, 0);
     text-decoration: none;
     padding: 10px;
     background: #1c1c1c;
@@ -667,12 +667,6 @@ body {
     color: rgb(51, 255, 0);
     font-weight: 700;
 }
-
-/* marca de agua */
-.fp-watermark {
-    display: none;
-}
-
 /* dispositivo con perifericos(mouse) */
 @media (hover:hover) {
     .nav__item:hover {
@@ -687,7 +681,6 @@ body {
         transform: scale(1.5);
         animation: none;
     }
-
 
     .toolkit__link:hover {
         background: #1c1c1c;
