@@ -1,4 +1,5 @@
-<form class="form" method="POST" action="." autocomplete="off" id="form">
+<form class="form" method="POST" action="#contacto" autocomplete="off" id="form">
+    {% csrf_token %}
     <div class="form__group">
         <input class="form__input" type="Text" name="name" id="name">
         <label class="form__label" for="name">Nombre</label>
