@@ -120,9 +120,6 @@
     }
 
 }
-
-@media (max-width :850px) {}
-
 @media (max-height: 850px) {
     body{
         font-size: 1.6rem;
@@ -279,7 +276,12 @@
         text-decoration: none;
         font-size: 1.5rem;
     }
-
+    #boton__link:hover{
+        box-shadow:
+            4px 4px 5px #101010,
+            -4px -4px 5px #282828;
+            transform: translate(-2px,-2px);
+    }
     .redes {
         display: none;
         position: absolute;
@@ -316,11 +318,6 @@
         border-radius: 28px;
     }
 }
-
-@media (max-height: 600px) and (min-width:850px) {
-    
-}
-
 @media (max-width :550px) {
     body{
         font-size: 1rem;
@@ -460,6 +457,7 @@
     /* boton redes */
     .boton__link,
     #boton__link {
+        cursor: pointer;
         position: absolute;
         top: 90%;
         left: 5%;
@@ -476,7 +474,12 @@
         text-decoration: none;
         font-size: 1.5rem;
     }
-
+    #boton__link:hover{
+        box-shadow:
+            4px 4px 5px #101010,
+            -4px -4px 5px #282828;
+            transform: translate(-2px,-2px);
+    }
     .redes {
         display: none;
         position: absolute;

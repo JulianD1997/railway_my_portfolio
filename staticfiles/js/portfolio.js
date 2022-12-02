@@ -6,6 +6,29 @@ navButtons.forEach((button)=>{
         button.classList.add('active')
     })
 })
+//observador
+
+const secciones = Array.from(document.getElementsByClassName('section'))
+let indice
+const observer = new IntersectionObserver((entradas) => 
+{
+    entradas.forEach(entrada => {
+        if(entrada.isIntersecting){
+            indice = secciones.indexOf(entrada.target)
+            console.log(indice)
+            navButtons[indice]
+            navButtons.forEach((b)=>{b.classList.remove('active')})
+            navButtons[indice].classList.add('active')
+        }
+    })
+},
+{
+    rootMargin: '-80px 0px 0px 0px',
+    threshold: 0.7
+}
+)
+
+secciones.forEach(seccion => observer.observe(seccion))
 
 /* burger */
 let burger = document.getElementById('burger')

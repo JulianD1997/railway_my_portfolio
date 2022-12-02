@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import index
+from .views import index,download_cv
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',index,name='index')
+    path('',index,name='index'),
+    path('download_cv/', download_cv,name='download')
 ]
