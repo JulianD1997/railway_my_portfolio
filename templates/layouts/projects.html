@@ -1,22 +1,25 @@
 {% load static %}
 <section class="section" id="proyectos">
-    <article class="article">
+    <article class="article proyecto">
         <h2 class="subtitle">Proyectos</h2>
-        <div class="containerProyecto">
+        <div class="container__proyectos">
             <button id="prev" class="button__proyect"><i class="fa-solid fa-angle-left"></i></button>
             <div class="carrusel__container" id="carrusel">
                 <div class="card">
-                    <div class="card__project">
-                        <img class="card__img" src="{% static 'img/proyectos/elbowflix.PNG' %}" alt="elbowflix">
-                        <div class="card__content">
+                    <div class="card__content">
+                        <div class="card__img ">
+                            <img class="card__img card__img--cover" src="{% static 'img/proyectos/elbowflix.PNG' %}"
+                                alt="elbowflix">
+                        </div>
+                        <div class="card__description">
                             <h4 class="card__title">Elbowflix</h4>
-                            <p class="card__description">
-                                Este es un proyecto realizado con HTML, CSS y JavaScript, recopila datos de una
-                                API de películas y series ( themoviedb API)
+                            <p class="card__summary">
+                                Página web sencilla de películas y series, los datos fueron obtenidos por medio
+                                de una API de películas
                             </p>
                         </div>
                     </div>
-                    <div class="card__tool">
+                    <div class="card__links">
                         <a href="https://elbowflix.netlify.app/" class="card__link" target="_blank">
                             <i class="fa-solid fa-earth-americas"></i>
                         </a>
@@ -26,33 +29,40 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card__project">
-                        <img class="card__img" src="{% static 'img/proyectos/Hotel_Teressita.PNG' %}" alt="elbowflix">
-                        <div class="card__content">
-                            <h4 class="card__title">Elbowflix</h4>
-                            <p class="card__description">
-                                Proyecto realizado con Python donde se utilizo un ORM,tkinter, y sqlite3 sigue el registro de recepción de un hotel.
+                    <div class="card__content">
+                        <div class="card__img ">
+                            <img class="card__img card__img--cover"
+                                src="{% static 'img/proyectos/Hotel_Teressita.PNG' %}" alt="elbowflix">
+                        </div>
+                        <div class="card__description">
+                            <h4 class="card__title">Aplicación Hotel</h4>
+                            <p class="card__summary">
+                                Aplicación realizada con Python, la cual permite llevar una administración de
+                                reservas en un hotel
                             </p>
                         </div>
                     </div>
-                    <div class="card__tool">
+                    <div class="card__links">
                         <a href="https://github.com/JulianD1997/proyecto_python_hotel_ORM" class="card__link">
                             <i class="fa-solid fa-code"></i>
                         </a>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card__project">
-                        <img class="card__img" src="{% static 'img/proyectos/portfolio.PNG' %}" alt="elbowflix">
-                        <div class="card__content">
+                    <div class="card__content">
+                        <div class="card__img ">
+                            <img class="card__img card__img--cover" src="{% static 'img/proyectos/portfolio.PNG' %}"
+                                alt="Portfolio">
+                        </div>
+                        <div class="card__description">
                             <h4 class="card__title">Portfolio</h4>
-                            <p class="card__description">
-                                Este es un proyecto realizado con HTML, CSS, JavaScript y Django, Un proyecto
-                                personal.
+                            <p class="card__summary">
+                                Portfolio creado por medio de HTML, CSS, JavaScript y Python utilizando el
+                                Framework Django.
                             </p>
                         </div>
                     </div>
-                    <div class="card__tool">
+                    <div class="card__links">
                         <a href="https://github.com/JulianD1997/my_portfolio" class="card__link">
                             <i class="fa-solid fa-code"></i>
                         </a>

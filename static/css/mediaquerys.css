@@ -1,19 +1,10 @@
-@media (max-width :1153px) {
-
-    /* tamaño de letra */
-    body {
-        font-size: 1.5rem;
-    }
-
-    /* menu hamburguesa */
+@media (max-width :1090px) {
     .burger {
         display: block;
     }
-
     .media {
         transform: translateY(350px);
     }
-
     .nav__list {
         display: block;
         flex-direction: column;
@@ -22,219 +13,104 @@
         left: 0;
         transition: transform 0.3s ease;
     }
-
     .nav__item {
-        background-color: rgba(0, 0, 0, 0.883);
+        background-color: rgba(46, 46, 46, 0.934);
     }
-
-    .article {
-        height: 100%;
-        padding: 0px 2rem;
+    .section{
+        padding: 1rem;
     }
-
-    /* inicio */
-    .profile {
-        flex-direction: row;
-    }
-
-    .profile__title {
-        font-size: 5rem;
-        width: 100%;
-    }
-
-    .profile__description {
-        width: 100%;
-        font-size: 3.2rem;
-    }
-
-    /* subtitulos */
-    .subtitle {
-        font-size: 4rem;
-    }
-
-    /* estudios */
-    .studies__list {
-        margin-left: 2rem;
-    }
-
-    /* habilidades */
-    .skills__list {
-        margin-top: 2rem;
-    }
-
-    .skill {
-        margin-bottom: 1rem;
-    }
-
-    .skill>img {
-        width: 2.8rem;
-        margin-right: 16px;
-    }
-
-    .skill:nth-child(3)>img {
-        width: 4.5rem;
-        margin-right: 16px;
-    }
-
-    /* proyectos */
-
-    .carrusel__container {
-        gap: 30px;
-        left: 380px;
-    }
-
-    .card {
-        width: 350px;
-        height: 350px;
-        border-radius: 15px;
-        border-radius: 25px;
-    }
-
-    .card .card__tool {
-        width: 54px;
-    }
-
-    .card__content {
-        font-size: 1.2rem;
-        width: 270px;
-    }
-
-    .card__title {
-        font-size: 1.5rem;
-    }
-
-    /* formulario */
-    .form__group {
-        width: 70%;
-    }
-
-    /* links redes */
-    .toolkit__link {
-        width: 60px;
-        height: 60px;
-        border-radius: 60px;
-    }
-
-    .toolkit__link>i {
-        font-size: 2.4rem;
-    }
-
-}
-@media (max-height: 850px) {
-    body{
-        font-size: 1.6rem;
-    }
+    .article{
+        overflow: hidden;
+        width: 90ch;
+        padding: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }    
     /* perfil */
     .profile{
         flex-direction: row;
+        width: 100%;
+        height: 100%;
+        padding: 60px 0px 0px 0px;
     }
     .profile__avatar{
+        margin: 0px 0px 15px 0px;
+        padding: 0;
         height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
     .profile__container{
-        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        align-items: center;
     }
     .profile__title{
-        font-size: 3.5rem;
+        font-size: 3rem;
+        width: 100%;
     }
     .profile__description{
-        font-size: 2.5rem;
-    }
-    
-    /* about */
-    .section{
-        padding: 20px 5px 5px;
-        overflow: hidden;
-        height: 130vh;
+        font-size: 1.8rem;
     }
     .subtitle{
-        font-size: 4rem;
-        margin-bottom: 12px;
-    }
-    .article{
-        padding: 0px 1rem;
-    }
-    .article__container{
-        margin: 0;
-        height: 100%;
-    }
-    .avion{
-        display: none;
-    }
-
-    /* studies */
-    .studies__list{
-        margin-left: 1rem;
-    }
-    /* skills */
-
-    .skills__list {
-        margin-top: 1rem;
-    }
-
-    .skill {
-        margin-bottom: 1rem;
-    }
-
-    .skill>img {
-        width: 2.5rem;
-        margin-right: 10px;
-    }
-
-    .skill:nth-child(3)>img {
-        width: 3.6rem;
-        margin-right: 10px;
-    }
-
-    /* projects */
-
-    .carrusel__container {
-        gap: 20px;
-        left: 350px;
-    }
-
-    .card {
-        width: 330px;
-        height: 330px;
-        border-radius: 15px;
-        border-radius: 25px;
-    }
-
-    .card .card__tool {
-        width: 44px;
-    }
-
-    .card__content {
-        font-size: 0.9rem;
-        width: 200px;
-    }
-
-    .card__title {
-        font-size: 1rem;
-    }
-
-    .button__proyect {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
         font-size: 2.5rem;
     }
-
+    /* acerca */
+    .article__description{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    /* studias */
+    .studies__list{
+        font-size: 1.2rem;
+        padding: 0px 0px 0px 15px;
+    }
+    .list__item{
+        width: 100%;
+    }
+    /* habilidades */
+    .skills__list{
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* proyectos */
+    .container__proyectos{
+        overflow: hidden;
+    }
+    .carrusel__container{
+        left: 400px;
+    }
+    .card{
+        font-size: 0.8rem;
+        width: 350px;
+        height: 350px;
+    }
+    .card__links{
+        position: relative;
+        margin-top: 5px 5px 0px 0px ;
+        top:0;
+    }
+    .button__proyect{
+        font-size: 1.8rem;
+        max-width: 45px;
+        max-height: 45px;
+        min-width: 30px;
+        min-height: 30px;
+    }
     #prev {
-        left: 1%;
+        left: 5%;
     }
-
+    
     #next {
-        right: 6%;
+        right: 5%;
     }
-
-    /* formulario */
-    .form {
-        margin-top: 1rem;
-    }
+    /* contacto */
 
     .form__group {
-        font-size: 1.3;
+        font-size: 1.2rem;
         width: 90%;
         margin-bottom: 30px;
     }
@@ -244,7 +120,7 @@
     }
 
     .form__label {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .form__input:focus+.form__label {
@@ -252,7 +128,7 @@
     }
 
     .button {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         max-width: 120px;
         min-height: 50px;
     }
@@ -260,8 +136,9 @@
     /* boton redes */
     .boton__link,
     #boton__link {
+        cursor: pointer;
         position: absolute;
-        top: 90%;
+        top: 88%;
         left: 5%;
         display: flex;
         justify-content: center;
@@ -319,119 +196,96 @@
     }
 }
 @media (max-width :550px) {
-    body{
-        font-size: 1rem;
-    }
-    /* perfil */
-    .profile{
-        flex-direction: column;
-    }
-    .profile__avatar{
-        height: 50%;
-    }
-    .profile__container{
-        max-width: 100%;
-    }
-    .profile__title{
-        font-size: 2rem;
-    }
-    .profile__description{
-        font-size: 1.5rem;
-    }
-    
-    /* about */
     .section{
-        padding: 20px 5px 5px;
-        overflow: hidden;
-        height: 110vh;
-    }
-    .subtitle{
-        font-size: 2rem;
+        padding: 10px;
     }
     .article{
-        padding: 0px 1rem;
-    }
-    .article__container{
-        margin: 0;
+        overflow: hidden;
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }    
+    /* perfil */
+    .profile{
+        width: 100%;
         height: 100%;
+        padding: 60px 0px 0px 0px;
     }
-    .avion{
-        display: none;
+    .profile__avatar{
+        margin: 0px 0px 15px 0px;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
-
-    /* studies */
-    .studies__list{
-        margin-left: 1rem;
+    .profile__container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        align-items: center;
     }
-    /* skills */
-
-    .skills__list {
-        margin-top: 1rem;
+    .profile__title{
+        font-size: 1.8rem;
+        width: 90%;
     }
-
-    .skill {
-        margin-bottom: 1rem;
+    .profile__description{
+        font-size: 1.4rem;
     }
-
-    .skill>img {
-        width: 2.5rem;
-        margin-right: 10px;
+    .subtitle{
+        font-size: 2.2rem;
     }
-
-    .skill:nth-child(3)>img {
-        width: 3.6rem;
-        margin-right: 10px;
-    }
-
-    /* projects */
-
-    .carrusel__container {
-        gap: 20px;
-        left: 245px;
-    }
-
-    .card {
-        width: 230px;
-        height: 230px;
-        border-radius: 10px;
-        border-radius: 20px;
-    }
-
-    .card .card__tool {
-        width: 34px;
-    }
-
-    .card__content {
-        font-size: 0.9rem;
-        width: 190px;
-    }
-
-    .card__title {
+    /* acerca */
+    .article__description{
+        text-align: center;
         font-size: 1rem;
     }
-
-    .button__proyect {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        font-size: 2rem;
+    /* studias */
+    .studies__list{
+        font-size: 1rem;
+        padding: 0px 0px 0px 15px;
     }
-
+    .list__item{
+        width: 100%;
+    }
+    /* habilidades */
+    .skills__list{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* proyectos */
+    .container__proyectos{
+        overflow: hidden;
+    }
+    .carrusel__container{
+        left: 280px;
+    }
+    .card{
+        font-size: 0.8rem;
+        width: 250px;
+        height: 250px;
+    }
+    .card__links{
+        position: relative;
+        margin-top: 5px 5px 0px 0px ;
+        top:0;
+    }
+    .button__proyect{
+        font-size: 1.8rem;
+    }
     #prev {
-        left: 1%;
+        left: 5%;
     }
-
+    
     #next {
-        right: 6%;
+        right: 5%;
     }
-
-    /* formulario */
-    .form {
-        margin-top: 1rem;
-    }
+    /* contacto */
 
     .form__group {
-        font-size: 1.3;
+        font-size: 1.2rem;
         width: 90%;
         margin-bottom: 30px;
     }
@@ -441,7 +295,7 @@
     }
 
     .form__label {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .form__input:focus+.form__label {
@@ -449,70 +303,8 @@
     }
 
     .button {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         max-width: 120px;
         min-height: 50px;
-    }
-
-    /* boton redes */
-    .boton__link,
-    #boton__link {
-        cursor: pointer;
-        position: absolute;
-        top: 90%;
-        left: 5%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 45px;
-        height: 45px;
-        background: #1c1c1c;
-        box-shadow:
-            6px 6px 12px #101010,
-            -6px -6px 12px #282828;
-        border-radius: 80px;
-        text-decoration: none;
-        font-size: 1.5rem;
-    }
-    #boton__link:hover{
-        box-shadow:
-            4px 4px 5px #101010,
-            -4px -4px 5px #282828;
-            transform: translate(-2px,-2px);
-    }
-    .redes {
-        display: none;
-        position: absolute;
-        padding: 20px;
-        border-radius: 20px;
-        background-color: rgb(16, 16, 16);
-        top: 50%;
-        left: 50%;
-        transition: transform 0.5s ease-in;
-        transform: scale(0);
-    }
-
-    .activo_redes {
-        display: flex;
-        transform: scale(1);
-        transform: translate(-50%, -50%);
-    }
-
-    .toolkit__link {
-        width: 50px;
-        height: 50px;
-        border-radius: 60px;
-        box-shadow: none;
-    }
-
-    .toolkit__link>i {
-        font-size: 2rem;
-    }
-
-    .download {
-        font-size: 1.4rem;
-        background: #1c1c1c;
-        box-shadow: none;
-        border-radius: 28px;
     }
 }
