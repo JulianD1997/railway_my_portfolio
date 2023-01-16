@@ -224,7 +224,7 @@ body {
     position: relative;
     overflow: hidden;
     width: 90ch;
-    padding: 1rem;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -359,7 +359,7 @@ body {
 }
 /* estilo proyectos */
 .proyecto{
-    height:60vh;
+    min-height:60vh;
 }
 .container__proyectos {
     display: flex;

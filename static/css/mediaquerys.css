@@ -77,6 +77,9 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
     /* proyectos */
+    .proyecto{
+        min-height: 500px;
+    }
     .container__proyectos{
         overflow: hidden;
     }
@@ -256,6 +259,9 @@
         grid-template-columns: 1fr 1fr;
     }
     /* proyectos */
+    .proyecto{
+        min-height: 300px;
+    }
     .container__proyectos{
         overflow: hidden;
     }
