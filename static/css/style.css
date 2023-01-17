@@ -592,6 +592,12 @@ body {
     color: rgb(0, 118, 177);
 }
 
+.correo{
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    text-decoration: underline;
+}
+
 .download {
     text-transform: capitalize;
     color: var(--primary-color);
