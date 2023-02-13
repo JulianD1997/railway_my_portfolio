@@ -85,13 +85,13 @@ function carrusel(i = 0) {
         carruselContainer.style.transform = `translateX(${-i * 280}px)`;
     }
     else if (screen_850.matches) {
-        carruselContainer.style.transform = `translateX(${-i * 330}px)`;
+        carruselContainer.style.transform = `translateX(${-i * 390}px)`;
     }
     else if (screen_1149.matches) {
-        carruselContainer.style.transform = `translateX(${-i * 350}px)`;
+        carruselContainer.style.transform = `translateX(${-i * 390}px)`;
     }
     else {
-        carruselContainer.style.transform = `translateX(${-i * 440}px)`;
+        carruselContainer.style.transform = `translateX(${-i * 390}px)`;
 
     }
     cards[i].classList.add('scale_card')

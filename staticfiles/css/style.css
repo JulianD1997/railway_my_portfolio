@@ -372,9 +372,10 @@ body {
 .carrusel__container {
     position: relative;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     gap: 30px;
-    left: 400px;
+    left: 39%;
     transition: transform 0.5s ease-in;
 }
 .card{
