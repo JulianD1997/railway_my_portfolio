@@ -234,6 +234,7 @@ body {
         -6px 6px 12px rgb(16, 16, 16),
         6px -6px 12px rgb(40, 40, 40);
     border-radius: 25px;
+    border: 1rem solid transparent;
 }
 
 /*perfil inicio*/
